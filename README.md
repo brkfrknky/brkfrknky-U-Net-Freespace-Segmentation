@@ -115,7 +115,7 @@ def one_hot_encoder(res_mask,n_classes):
 
 U-Net is more successful than conventional models, in terms of architecture and in terms pixel-based image segmentation formed from convolutional neural network layers. It’s even effective with limited dataset images. The presentation of this architecture was first realized through the analysis of biomedical images. For this reason, U-Net architecture was used in the project.
 
-![image](![u-1](https://user-images.githubusercontent.com/76915533/129893959-bf9733c7-db7d-404d-9eea-16bd2a2362e3.jpg))
+![image](https://user-images.githubusercontent.com/76915533/129893959-bf9733c7-db7d-404d-9eea-16bd2a2362e3.jpg)
 
 
 # Augmentation
