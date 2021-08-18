@@ -135,4 +135,4 @@ for image in tqdm.tqdm(train_input_path_list):
  
  | Original | Augmentation |
 | ------ | ------ |
-| ![image](![image](https://user-images.githubusercontent.com/76915533/129894490-f754fdef-10c4-48b6-b834-3395a97d6325.png)) | ![image](![image](https://user-images.githubusercontent.com/76915533/129894509-fc05e168-75e9-4d80-9952-2cef637518c5.png) |
+| ![image](![image](https://user-images.githubusercontent.com/76915533/129894490-f754fdef-10c4-48b6-b834-3395a97d6325.png) | ![image](![image](https://user-images.githubusercontent.com/76915533/129894509-fc05e168-75e9-4d80-9952-2cef637518c5.png) |
