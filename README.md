@@ -154,8 +154,12 @@ The dataset was then split and randomly shuffled. Then the model is called and t
 
 ```sh
 model = UNet(n_channels=3, n_classes=2, bilinear=True)
-criterion = nn.BCELoss()#Creates a criterion that measures the Binary Cross Entropy between target and output:
+criterion = nn.BCELoss()
 optimizer = AdaBound(model.parameters(), lr=1e-4, final_lr=0.1)
 ```
 
 Adabound is an optimizer that trains as fast as Adam and as good as SGD, for developing state-of-the-art deep learning models on a wide variety of popular tasks in the field of CV, NLP, and etc. The relevant github link is [here](https://github.com/Luolc/AdaBound).
+
+# Results
+
+![image]![nihai_model_graph](https://user-images.githubusercontent.com/76915533/129896325-1b63ea43-4920-4f59-afd4-3bdbb841835d.png)
