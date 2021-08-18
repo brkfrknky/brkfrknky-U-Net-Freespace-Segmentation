@@ -74,7 +74,7 @@ Opencv's fillPoly function is used to use this information.
 ```sh
 cv2.fillPoly(mask,np.array([obj['points']['exterior']]),color=1)
 ```
-You can find the codes of this section from the json_mask.py file.
+You can find the codes of this section from the [json_mask.py](https://github.com/brkfrknky/brkfrknky-U-Net-Freespace-Segmentation/blob/main/src/json_mask.py) file.
 
 # Image Mask
 
