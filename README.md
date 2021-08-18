@@ -165,4 +165,4 @@ Adabound is an optimizer that trains as fast as Adam and as good as SGD, for dev
 ![nihai_model_graph](https://user-images.githubusercontent.com/76915533/129896325-1b63ea43-4920-4f59-afd4-3bdbb841835d.png)
 
 
-![image](https://user-images.githubusercontent.com/76915533/129897547-ecba7cc2-66c1-416f-8228-de0d31ad2fc0.png)
+![image](https://user-images.githubusercontent.com/76915533/129897634-ce3e4a49-9e95-4318-b5d1-6063ff51d6f2.png)
