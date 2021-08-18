@@ -80,7 +80,7 @@ You can find the codes of this section from the [json_mask.py](https://github.co
 
 This section exists only to make sure that the mask is applied correctly. Just check a few sample images while running the code.
 
-You can find the codes of this section from the mask_image.py file.
+You can find the codes of this section from the [mask_image.py](https://github.com/brkfrknky/brkfrknky-U-Net-Freespace-Segmentation/blob/main/src/mask_image.py) file.
 
 #Preprocessing
 
@@ -108,7 +108,7 @@ def one_hot_encoder(res_mask,n_classes):
        return one_hot
  ```
  
- You can find the codes of this section from the preprocess.py file.
+ You can find the codes of this section from the [preprocess.py](https://github.com/brkfrknky/brkfrknky-U-Net-Freespace-Segmentation/blob/main/src/preprocess.py) file.
  
  
  # Model
@@ -117,6 +117,7 @@ U-Net is more successful than conventional models, in terms of architecture and 
 
 ![image](https://user-images.githubusercontent.com/76915533/129893959-bf9733c7-db7d-404d-9eea-16bd2a2362e3.jpg)
 
+You can find the codes of this section from the [unet.py](https://github.com/brkfrknky/brkfrknky-U-Net-Freespace-Segmentation/blob/main/src/unet.py) file.
 
 # Augmentation
 
@@ -137,7 +138,7 @@ for image in tqdm.tqdm(train_input_path_list):
 | ------ | ------ |
 | ![image](https://user-images.githubusercontent.com/76915533/129894490-f754fdef-10c4-48b6-b834-3395a97d6325.png) | ![image](https://user-images.githubusercontent.com/76915533/129894509-fc05e168-75e9-4d80-9952-2cef637518c5.png) |
 
- You can find the codes of this section from the aug.py file.
+ You can find the codes of this section from the [aug.py](https://github.com/brkfrknky/brkfrknky-U-Net-Freespace-Segmentation/blob/main/src/aug.py) file.
 
 # Train
 
@@ -159,6 +160,9 @@ optimizer = AdaBound(model.parameters(), lr=1e-4, final_lr=0.1)
 ```
 
 Adabound is an optimizer that trains as fast as Adam and as good as SGD, for developing state-of-the-art deep learning models on a wide variety of popular tasks in the field of CV, NLP, and etc. The relevant github link is [here](https://github.com/Luolc/AdaBound).
+
+ You can find the codes of this section from the [train2.py](https://github.com/brkfrknky/brkfrknky-U-Net-Freespace-Segmentation/blob/main/src/train2.py) file.
+
 
 # Results
 
